@@ -1,0 +1,76 @@
+﻿.centeralign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}    
+
+.dvCenterAlign{
+    position:absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:white;
+    width:250px;
+    height:150px;
+    border-style:groove;
+    display:none;
+}
+
+.EHROrangeButtons {
+    border-radius: 25px;
+    background: orange;
+    width: 10%;
+    height: 60px; 
+    color:white;
+    font-size:large; 
+}
+
+.EHRGreenButtons {
+    border-radius: 25px;
+    background: green;
+    width: 10%;
+    height: 60px; 
+    color:white;
+    font-size:large; 
+}
+
+.EHRBlueButtons {
+    border-radius: 25px;
+    background: blue;
+    width: 10%;
+    height: 60px; 
+    color:white;
+    font-size:large; 
+}
+
+.orangebox {border:2px solid orange;width:75%;}
+.orangebox h2 {background:orange;color:white;padding:10px;}
+.orangebox p {padding:10px;}
+.orangebox {
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-topleft:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-top-left-radius:5px;
+}
+
+.greenbox {border:2px solid green;width:75%;}
+.greenbox h2 {background:green;color:white;padding:10px;}
+.greenbox p {padding:10px;}
+.greenbox {
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-topleft:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-top-left-radius:5px;
+}
+
+.bluebox {border:2px solid blue;width:75%; margin-left:5%;}
+.bluebox h2 {background:blue;color:white;padding:10px;}
+.bluebox p {padding:10px;}
+.bluebox {
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-topleft:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-top-left-radius:5px;
+}
